@@ -964,6 +964,20 @@ footer .bottom .right{
 }
 
 
+@media screen and ( max-width:750px){
+
+
+    menu ul{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .search{
+        visibility: hidden;
+    }
+}
+
+
 @media screen and ( max-width:400px){
     section{
         margin-left: 0%;
@@ -985,18 +999,7 @@ footer .bottom .right{
 }
 
 
-@media screen and ( max-width:750px){
 
-
-    menu ul{
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .search{
-        visibility: hidden;
-    }
-}
 
 @media screen and ( max-width:350px){
 
