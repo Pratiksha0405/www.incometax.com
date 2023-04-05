@@ -1,0 +1,1063 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+header{
+    /* background-color: chocolate; */
+    display: flex;
+    align-items: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+figure{
+    /* background-color: lightblue; */
+    flex-basis: 500px;
+    flex-grow: 1;
+    display: flex;
+}
+
+
+.topmenu{
+    /* background-color: lightcoral; */
+    flex-basis: 500px;
+    flex-grow: 1;
+}
+
+
+header ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+header ul a{
+    text-decoration: none;
+    color: black;
+}
+
+ul button{
+    height: 30px;
+    width: 80px;
+    color: white;
+    font-weight: bold;
+}
+
+.topmenu ul li button{
+    color: black;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.topmenu ul li p button{
+    background-color: rgb(50, 50, 136);
+    color: white;
+}
+
+
+menu{
+    background-color: rgb(50, 50, 136);
+    display: flex;
+    flex-grow: 2;
+    align-items: center;
+    justify-content: center;
+}
+
+menu ul{
+    /* background-color: palevioletred; */
+    list-style: none;
+    display: flex;
+    flex-basis: 700px;
+    flex-grow: 1;
+    justify-content: space-around;
+    margin-left: 7%;
+    /* margin-right: 10%; */
+   
+}
+
+menu ul a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.search{
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    flex-basis: 100px;
+    margin-right: 10%;
+    flex-grow: 1;
+}
+
+.search img{
+    height: 25px;
+    width: 25px;
+    padding: 1%;
+    border-radius: 5px;
+    background-color: blue;
+    display: flex;
+}
+
+
+section{
+    /* background-color: yellow; */
+    display: flex;
+    margin-left: 8%;
+    margin-right: 8%;
+}
+
+aside{
+    /* background-color:rgb(194, 199, 204); */
+    flex-basis: 400px;
+    flex-grow: 1;
+    margin: 2%;
+    /* padding: 1%; */
+    /* justify-content: center; */
+   
+}
+
+aside h1{
+    font-size: 25px;
+    padding-left: 5%;
+    padding-top: 5%;
+    text-decoration: 4px underline navy;
+    background-color:rgb(194, 199, 204);
+}
+
+
+aside ul{
+    list-style-image: url(images/icons8-workstation-20\ \(1\).png);
+    list-style-position: inside;
+    padding: 5%;
+    display: flex;
+    flex-direction: column; 
+    flex-basis: 350px;
+    /* align-items: center; */
+    flex-grow: 1;
+    background-color:rgb(194, 199, 204);
+
+}
+
+aside ul li {
+    border: 1px solid rgb(207, 205, 205);
+    padding: 3%;
+    background-color: white;
+}
+
+aside ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+aside h2{
+    font-size: 25px;
+    padding-left: 3%;
+    padding-top: 5%;
+    text-decoration: 4px underline navy;
+}
+
+aside .asidebottom{
+    display: flex;
+    margin-top: 5%;
+}
+
+.asidebottom h3{
+    padding-left: 5%;
+    padding-top: 5%;
+    font-size: 25px;
+ }
+ 
+
+.asidebottom p{
+   padding: 5%;
+}
+
+.asidebottom .left{
+    flex-basis: 200px;
+}
+
+.asidebottom .right{
+    flex-basis: 200px;
+}
+
+
+
+
+
+
+.container{
+    /* background-color: orange; */
+    flex-basis: 800px;
+    flex-grow: 1;
+    padding: 1.50%;
+}
+
+marquee{
+    padding: 1%;
+    margin: 1%;
+    color: rgb(190, 61, 14);
+    font-weight: bold;
+    border: 1px solid brown;
+    background-color: rgb(243, 213, 202);
+}
+
+.container h1{
+    padding: 1%;
+}
+
+.e-Filling{
+    display: flex;
+}
+
+.e-Filling .one{
+    /* background-color: olive; */
+    font-size: 20px;
+    padding: 1%;
+    flex-basis: 400px;
+    flex-grow: 1;
+    flex-shrink: 2;
+}
+
+.e-Filling .one button{
+    padding: 3%;
+    background-color: rgb(50, 50, 136);
+    border: 0px;
+    border-radius: 6px;
+    color: white;
+    font-weight: bold;
+    font-size: 17px;
+    margin-top: 20%;
+}
+
+.e-Filling .two{
+    /* background-color: violet; */
+    flex-basis: 400px;
+    /* flex-grow: 1; */
+    display: flex;
+    justify-content: center;
+
+}
+
+.two img{
+    height: 200px;
+    width: 370px;
+}
+
+.latestupdate{
+    display: flex;
+}
+
+.latestupdate input{
+    font-size: 15px;
+}
+
+.latestupdate p{
+    font-size: 20px;
+}
+
+.latestupdate .first{
+    border: 1px solid rgb(207, 205, 205);
+    padding: 5.50%;
+}
+
+.latestupdate .second{
+    border: 1px solid rgb(207, 205, 205);
+    padding: 5%;
+    margin-top: 5%;
+}
+
+.latestupdate .third{
+    border: 1px solid rgb(207, 205, 205);
+    padding: 8%;
+    
+}
+
+.latestupdate .fourth{
+    border: 1px solid rgb(207, 205, 205);
+    padding: 5%;
+    margin-top: 6%;
+}
+
+.latestupdate .one{
+    /* background-color: lime; */
+    flex-basis: 400px;
+    flex-grow: 1;
+    flex-shrink: 2;
+    padding: 1%;
+}
+
+
+
+
+.latestupdate .two{
+    /* background-color: goldenrod; */
+    flex-basis: 400px;
+    flex-grow: 1;
+    flex-shrink: 2;
+    padding: 1%;
+}
+
+.bottommenu ul{
+    list-style: none;
+    display: flex;
+}
+
+.thingstoknow{
+    display: flex;
+}
+
+.container ul{
+    display: flex;
+    list-style: none;
+    padding: 1%;
+}
+
+.container ul li {
+    margin-left: 3%;
+}
+
+.container ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.thingstoknow a:link{
+    text-decoration: underline;
+    font-size: 18px;
+}
+
+
+.thingstoknow .left{
+    /* background-color: red; */
+    flex-basis: 400px;
+    flex-grow: 1;
+    padding: 2%;
+}
+
+.thingstoknow .left .main1{
+    display: flex;
+}
+
+.main1 .one{
+    flex-grow: 1;
+}
+
+.main1 .two{
+    flex-grow: 1;
+}
+
+.main2 .three{
+    flex-grow: 1;
+}
+
+.main2 .four{
+    flex-grow: 1;
+}
+
+.thingstoknow .left .main1 .one{
+    flex-basis: 100px;
+   
+}
+
+.thingstoknow .main1 .one p+p{
+   padding-top: 13%;
+}
+
+.thingstoknow .main1 .two p+p{
+    padding-top: 6%;
+}
+
+.thingstoknow .main2 .three p+p{
+    padding-top: 30%;
+}
+
+.thingstoknow .main2 .four p+p{
+    padding-top: 7%;
+}
+
+.thingstoknow .left .main1 .two{
+    flex-basis: 200px;
+    margin-left: 3%;
+}
+
+.thingstoknow a{
+    text-decoration: none;
+    color: black;
+    /* font-size: 17px; */
+}
+
+.thingstoknow .right{
+    /* background-color: green; */
+    flex-basis: 400px;
+    flex-grow: 1;
+    padding: 2%;
+}
+
+.thingstoknow .right .main2{
+    display: flex;
+}
+
+.thingstoknow .right .main2 .three{
+    flex-basis: 100px;
+}
+
+.thingstoknow .right .main2 .four{
+    flex-basis: 200px;
+    margin-left: 3%;
+}
+
+.Commite{
+    display: flex;
+}
+
+.Commite .left{
+    flex-basis: 420px;
+    flex-grow: 2;
+    background-color:rgb(226, 229, 233);
+}
+
+.Commite h1{
+    padding: 2%;
+}
+
+.Commite p{
+    font-size: 18px;
+    margin-top: 9%;
+    padding: 3%;
+    font-weight: bold;
+}
+
+.Commite p+p{
+    margin-top: 5%;
+    font-weight: normal;
+}
+
+
+.Commite .right{
+    flex-basis: 380px;
+    /* flex-grow: 1; */
+    display: flex;
+}
+
+.Commite .right img{
+    height: 350px;
+    width: 380px;
+}
+
+
+footer{
+    background-color: rgb(12, 12, 37);
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+footer .one{
+    display: flex;
+    justify-content: space-between;
+    /* padding-top: 2%;
+    padding-left: 7%;
+    padding-right: 7%; */
+    flex-grow: 1;
+    align-items: center;
+}
+
+footer ul{
+    list-style: none;
+    padding: 2%;
+}
+
+footer ul p{
+    color: white;
+    font-size: 25px;
+    margin-bottom: 10%;
+}
+
+footer ul li{
+    line-height: 25px;
+
+}
+
+footer ul a{
+    text-decoration: none;
+    color: white;
+
+}
+
+footer .bottom{
+    display: flex;
+    align-items: center;
+}
+
+footer .bottom .left{
+    flex-basis: 300px;
+    flex-grow: 1;
+    padding-left: 8%;
+    display: flex;
+}
+
+footer img{
+    height: 60px;
+    width: 150px;
+}
+
+footer .bottom .right{
+    color: white;
+    flex-basis: 500px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    line-height: 30px;
+    padding: 2%;
+    padding-right: 8%;
+}
+
+
+
+
+
+@media screen and ( max-width:1200px){
+    /* .Commite{
+        flex-wrap: wrap;
+    } */
+
+
+    .e-Filling .two img{
+        height: 200px;
+        width: 280px;
+    }
+
+    .Commite .right img{
+        height: 330px;
+        width: 250px;
+    }
+}
+
+
+
+@media screen and ( max-width:900px){
+    header{
+        flex-wrap: wrap;
+    }
+
+    figure{
+        justify-content: center;
+        /* border: 1px solid black; */
+    }
+
+    figure img{
+        height: 200px;
+        width: 300px;
+
+    }
+
+    .topmenu{
+        padding: 2%;
+    }
+
+    .topmenu a{
+        font-size: 30px;
+    }
+
+    .topmenu ul li button{
+        font-size: 30px;
+        height: 50px;
+        width: 150px;
+    }
+
+    header ul a::after{
+        content: "|";
+    }
+
+
+    menu ul{
+        flex-wrap: wrap;
+        padding: 2%; 
+        justify-content: space-between;
+        padding-left: 0%;
+           
+    }
+
+    menu ul a{
+        font-size: 25px;
+        text-decoration: underline white;
+    }
+
+    .search img{
+        height: 35px;
+        width: 35px;
+    }
+
+    marquee{
+        font-size: 22px;
+    }
+
+    section{
+        flex-wrap: wrap;
+        margin-left: 0%;
+        margin-right: 0%;
+        margin: 0%;
+        padding: 0%;
+    }
+
+    .container{
+        order: 1;
+    }
+
+    aside{
+        order: 2;
+    }
+
+    .container h1{
+        font-size: 40px;
+        padding: 3%;
+    }
+
+    .e-Filling{
+        padding: 3%;
+
+    }
+
+    .e-Filling .one{
+        font-size: 28px;
+        /* margin-left: 25%; */
+        
+    }
+
+    .e-Filling .one button{
+        font-size: 24px;
+        margin-top: 10%;
+        width: 350px;
+    }
+
+
+    .e-Filling .two{
+        visibility: hidden;
+    }
+    
+
+    .latestupdate{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .latestupdate input{
+        font-size: 25px;
+    }
+    
+    .latestupdate p{
+        font-size: 30px;
+    }
+
+    .container ul a{
+        font-size: 25px;
+    }
+
+    .thingstoknow{
+        flex-wrap: wrap;
+        padding: 2%;
+    }
+
+    .thingstoknow .main1 a{
+        font-size: 30px;
+    }
+
+    .thingstoknow .main2 a{
+        font-size: 30px;
+    }
+
+    .Commite{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .Commite .left h1{
+        font-size: 45px;
+    }   
+
+    .Commite .left p{
+        font-size: 27px;
+        padding: 4%;
+        margin-top: 1%;
+    }
+
+    .Commite .right{
+        padding: 3%;
+    }
+
+    .Commite .right img{
+        width: 700px;
+        height: 450px;
+    }
+
+    .latestupdate button{
+        height: 30px;
+        width: 91px;
+        font-size: 15px;
+        font-weight: bold;
+        background-color: white;
+    }
+
+    aside{
+        margin: 2%;
+    }
+
+    aside h1{
+        font-size: 45px;
+    }
+
+    aside ul{
+        /* list-style: none; */
+        font-size: 30px;
+        text-align: center;
+    }
+
+    aside h2{
+        font-size: 45px;
+    }
+
+    .asidebottom{
+        justify-content: center;
+    }
+
+    .asidebottom h3{
+        font-size: 38px;
+    }
+
+    .asidebottom p{
+        font-size: 25px;
+    }
+
+    footer .one{
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        padding: 2%;
+    }
+
+    footer .one p{
+        font-size: 40px;
+        font-weight: normal;
+    }
+
+    footer .one ul a{
+        font-size: 25px;
+    }
+
+    footer .bottom{
+        flex-wrap: wrap-reverse;
+    }
+
+    footer .bottom .left{
+        justify-content: center;
+        padding: 3%;
+    }
+
+    .bottom .left img{
+        height: 100px;
+        width: 180px;
+    }
+
+    footer .bottom .right{
+        align-items: center;
+        padding: 2%;
+    }
+
+    footer .bottom .right p{
+        font-size: 23px;
+        padding: 1%;
+    }
+
+
+}
+
+
+@media screen and ( max-width:800px){
+
+    menu{
+        margin-left: 0px;
+        margin-right: 0px;
+        padding-right: 0px;
+    }
+
+    header ul li a{
+        visibility: hidden;
+    }
+
+    header ul{
+        margin-right: 45%;
+    }
+
+    header ul li{
+        margin: 5%;
+    }
+
+    header ul button{
+        margin-left: 2%;
+    }
+
+    menu ul li{
+        margin-top: 2%;
+    }
+
+    menu ul a{
+        font-size: 25px;
+        padding: 15px;
+        text-decoration: none;
+    }
+
+    menu ul a::after{
+        content: "|";
+    }
+
+    menu ul a::before{
+        content: "|";
+    }
+
+    marquee{
+        font-size: 25px;
+    } 
+
+    aside ul{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    aside ul li{
+        flex-basis: 250px;
+        flex-grow: 1;
+    }
+}
+
+
+
+
+@media screen and ( max-width:600px){
+    .topmenu ul li button{
+        font-size: 35px;
+    }
+    
+    menu{
+        visibility: hidden;
+        display: none;
+
+    }
+
+    aside ul{
+        list-style: square;
+        list-style-position: inside;
+    }
+
+
+    .container h1{
+        font-size: 60px;
+    }
+
+    .e-Filling .one p{
+        font-size: 40px;
+    }
+
+    .e-Filling .one button{
+        font-size: 32px;
+        width: 400px;
+    }
+
+    .latestupdate input{
+        font-size: 35px;
+    }
+
+    .latestupdate button{
+        font-size: 30px;
+        width: 200px;
+        height: 40px;   
+    }
+
+    .latestupdate p{
+        font-size: 40px;
+        padding: 3%;
+    }
+
+
+    .container ul a{
+        font-size: 30px;
+        border: 1px solid black;
+    }
+
+    .thingstoknow .left p a{
+        font-size: 35px;
+    }
+
+    .thingstoknow .right p a{
+        font-size: 32px;
+    }
+
+    .Commite .left p{
+        font-size: 40px;
+    }
+
+    aside ul li a{
+        font-size: 40px;
+    }
+
+    aside h1{
+        font-size: 55px;
+    }
+
+    aside h2{
+        font-size: 60px;
+    }
+
+    .asidebottom{
+        justify-content: space-between;
+    }
+
+    .asidebottom h3{
+        font-size: 55px;
+        padding: 2%;
+
+    }
+
+    .asidebottom p{
+        font-size: 35px;
+    }
+
+    footer .one{
+        align-items: center;
+        padding: 10%;
+        text-align: center;
+    }
+
+    footer .one ul{
+        padding-top: 10%;
+    }
+
+    footer .one p{
+        font-size: 55px;
+        text-decoration: underline;
+    }
+
+    footer .one ul li{
+        line-height: 45px;
+    }
+
+    footer .one ul a{
+        font-size: 45px;
+    }
+
+    footer .bottom .right p{
+        font-size: 40px;
+        line-height: 60px;
+    }
+
+}
+
+
+@media screen and ( max-width:400px){
+    section{
+        margin-left: 0%;
+        margin-left: 0%;
+    }
+
+    header img{
+        width: 400px;
+    }
+
+    aside{
+        flex-basis: 400px;
+    }
+
+    aside ul li{
+        flex-basis: 400px;
+        flex-grow: 1;
+    }
+}
+
+
+@media screen and ( max-width:750px){
+
+
+    menu ul{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .search{
+        visibility: hidden;
+    }
+}
+
+@media screen and ( max-width:350px){
+
+    figure img{
+        width: 350px;
+        height: 300px;
+    }
+
+    .topmenu ul{
+        flex-wrap: wrap;
+    }
+
+    .topmenu ul li button{
+        font-size: 50px;
+        width: 220px;
+        height: 80px;
+        margin-left: 60%;
+    }
+    
+    marquee{
+        font-size: 35px;
+    }
+
+    .e-Filling .one p{
+        font-size: 45px;
+    }
+
+    .container h1{
+        font-size: 65px;
+    }
+
+    .latestupdate p{
+        font-size: 45px;
+    }
+
+    .container ul a{
+        font-size: 34px;
+    }
+
+    .thingstoknow .left p a{
+        font-size: 38px;
+        text-decoration: none;
+    }
+
+    .thingstoknow .right p a{
+        font-size: 40px;
+        text-decoration: none;
+    }
+
+    .Commite .left p{
+        font-size: 45px;
+    }
+
+    aside ul{
+        background-color: white;
+    }
+
+    
+}
+
+
+
+
+
