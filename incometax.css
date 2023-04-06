@@ -185,10 +185,12 @@ aside .asidebottom{
 
 .asidebottom .left{
     flex-basis: 200px;
+    flex-grow: 1;
 }
 
 .asidebottom .right{
     flex-basis: 200px;
+    flex-grow: 1;
 }
 
 
@@ -243,7 +245,7 @@ marquee{
     flex-grow: 1;
     flex-shrink: 2;
     display: flex;
-    /* justify-content: center; */
+    justify-content: center;
     align-items: center;
 
 }
@@ -836,9 +838,7 @@ footer .bottom .right{
         justify-content: center;
     }
 
-    .Commite .right{
-        justify-content: center;
-    }
+   
 
 }
 
@@ -1015,6 +1015,10 @@ footer .bottom .right{
         width: 400px;
     }
 
+    aside h1, h2{
+        text-align: center;
+    }
+
     aside ul li{
         flex-basis: 400px;
         flex-grow: 1;
@@ -1023,6 +1027,10 @@ footer .bottom .right{
 
     aside{
         padding: 2%;
+    }
+
+    aside .asidebottom {
+        flex-direction: column;
     }
 
 
@@ -1051,7 +1059,6 @@ footer .bottom .right{
     .e-Filling .one button{
         width: 500px;
         height: 70px;
-        margin-left: 10%;
     }
 
     .e-Filling .two img{
@@ -1059,13 +1066,29 @@ footer .bottom .right{
         width: 400px;
     }
 
+    .container ul li{
+        padding: 2%;
+    }
+
+    .thingstoknow{
+        border: 1px solid grey;
+        box-shadow: 4px 4px 5px gray;
+    }
+
+    
 
     .Commite .right img{
         height: 480px;
     }
 
-    
-   
+    footer .bottom .left img{
+        height: 200px;
+        width: 350px;
+    }
+
+    section{
+        justify-content: center;
+    }
 }
 
 
