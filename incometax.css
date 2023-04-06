@@ -226,6 +226,9 @@ marquee{
     flex-basis: 400px;
     flex-grow: 1;
     flex-shrink: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .e-Filling .one button{
@@ -262,6 +265,10 @@ marquee{
 
 .latestupdate input{
     font-size: 15px;
+}
+
+.latestupdate button{
+    margin-top: 2%;
 }
 
 .latestupdate p{
@@ -1033,11 +1040,6 @@ footer .bottom .right{
         flex-direction: column;
     }
 
-
-    .latestupdate button{
-        margin-top: 2%;
-    }
-
     .container ul{
         flex-direction: column;
         align-items: center;
@@ -1062,8 +1064,9 @@ footer .bottom .right{
     }
 
     .e-Filling .two img{
-        height: 300px;
-        width: 400px;
+        margin-top: 2%;
+        height: 400px;
+        width: 100%;
     }
 
     .container ul li{
@@ -1075,10 +1078,13 @@ footer .bottom .right{
         box-shadow: 4px 4px 5px gray;
     }
 
+    .Commite{
+        margin-top: 4%;
+    }
     
 
     .Commite .right img{
-        height: 480px;
+        height: 500px;
     }
 
     footer .bottom .left img{
