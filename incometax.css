@@ -240,19 +240,22 @@ marquee{
 .e-Filling .two{
     /* background-color: violet; */
     flex-basis: 400px;
-    /* flex-grow: 1; */
+    flex-grow: 1;
+    flex-shrink: 2;
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
+    align-items: center;
 
 }
 
 .two img{
     height: 200px;
-    width: 370px;
+    width: 100%;
 }
 
 .latestupdate{
     display: flex;
+
 }
 
 .latestupdate input{
@@ -266,17 +269,20 @@ marquee{
 .latestupdate .first{
     border: 1px solid rgb(207, 205, 205);
     padding: 5.50%;
+    flex-grow: 1;
 }
 
 .latestupdate .second{
     border: 1px solid rgb(207, 205, 205);
     padding: 5%;
     margin-top: 5%;
+    flex-grow: 1;
 }
 
 .latestupdate .third{
     border: 1px solid rgb(207, 205, 205);
     padding: 8%;
+    flex-grow: 1;
     
 }
 
@@ -284,6 +290,7 @@ marquee{
     border: 1px solid rgb(207, 205, 205);
     padding: 5%;
     margin-top: 6%;
+    flex-grow: 1;
 }
 
 .latestupdate .one{
@@ -292,6 +299,8 @@ marquee{
     flex-grow: 1;
     flex-shrink: 2;
     padding: 1%;
+    display: flex;
+    flex-direction: column;
 }
 
 
@@ -303,6 +312,8 @@ marquee{
     flex-grow: 1;
     flex-shrink: 2;
     padding: 1%;
+    display: flex;
+    flex-direction: column;
 }
 
 .bottommenu ul{
@@ -310,9 +321,7 @@ marquee{
     display: flex;
 }
 
-.thingstoknow{
-    display: flex;
-}
+
 
 .container ul{
     display: flex;
@@ -329,99 +338,89 @@ marquee{
     color: black;
 }
 
-.thingstoknow a:link{
-    text-decoration: underline;
+.thingstoknow{
+    display: flex;
+    margin-top: 2%;
+}
+
+.thingstoknow .main1{
+    display: flex;
+    flex-direction: column;
+}
+
+.thingstoknow .main2{
+    display: flex;
+    flex-direction: column;
+}
+
+.thingstoknow .left{
+    flex-basis: 400px;
+    flex-grow: 1;
+}
+
+.thingstoknow img{
+    height: 60px;
+    width: 90px;
+    border-radius: 5px;
+}
+
+.thingstoknow p{
+    text-align: start;
+    padding: 2%;
+}
+
+.thingstoknow p a{
+    color: black;
     font-size: 18px;
 }
 
-
-.thingstoknow .left{
-    /* background-color: red; */
-    flex-basis: 400px;
-    flex-grow: 1;
-    padding: 2%;
-}
-
-.thingstoknow .left .main1{
+.thingstoknow .left .one{
     display: flex;
+    align-items: center;
+
 }
 
-.main1 .one{
-    flex-grow: 1;
+.thingstoknow .left .two{
+    display: flex;
+    align-items: center;
+
 }
 
-.main1 .two{
-    flex-grow: 1;
+.thingstoknow .right .three{
+    display: flex;
+    align-items: center;
+
 }
 
-.main2 .three{
-    flex-grow: 1;
-}
+.thingstoknow .right .four{
+    display: flex;
+    align-items: center;
 
-.main2 .four{
-    flex-grow: 1;
-}
-
-.thingstoknow .left .main1 .one{
-    flex-basis: 100px;
-   
-}
-
-.thingstoknow .main1 .one p+p{
-   padding-top: 13%;
-}
-
-.thingstoknow .main1 .two p+p{
-    padding-top: 6%;
-}
-
-.thingstoknow .main2 .three p+p{
-    padding-top: 30%;
-}
-
-.thingstoknow .main2 .four p+p{
-    padding-top: 7%;
-}
-
-.thingstoknow .left .main1 .two{
-    flex-basis: 200px;
-    margin-left: 3%;
-}
-
-.thingstoknow a{
-    text-decoration: none;
-    color: black;
-    /* font-size: 17px; */
 }
 
 .thingstoknow .right{
-    /* background-color: green; */
     flex-basis: 400px;
     flex-grow: 1;
-    padding: 2%;
 }
 
-.thingstoknow .right .main2{
-    display: flex;
-}
 
-.thingstoknow .right .main2 .three{
-    flex-basis: 100px;
-}
 
-.thingstoknow .right .main2 .four{
-    flex-basis: 200px;
-    margin-left: 3%;
-}
+
+
+
+
 
 .Commite{
     display: flex;
+    margin-top: 2%;
 }
 
 .Commite .left{
-    flex-basis: 420px;
+    flex-basis: 400px;
     flex-grow: 2;
     background-color:rgb(226, 229, 233);
+    display: flex;
+    flex-direction: column;
 }
 
 .Commite h1{
@@ -442,8 +441,8 @@ marquee{
 
 
 .Commite .right{
-    flex-basis: 380px;
-    /* flex-grow: 1; */
+    flex-basis: 400px;
+    flex-grow: 1;
     display: flex;
 }
 
@@ -602,10 +601,6 @@ footer .bottom .right{
 
     section{
         flex-wrap: wrap;
-        /* margin-left: 0%;
-        margin-right: 0%;
-        margin: 0%;
-        padding: 0%; */
     }
 
     .container{
@@ -627,7 +622,6 @@ footer .bottom .right{
 
     .e-Filling .one{
         font-size: 28px;
-        /* margin-left: 25%; */
         
     }
 
@@ -638,9 +632,10 @@ footer .bottom .right{
     }
 
 
-    .e-Filling .two{
+    /* .e-Filling .two{
         visibility: hidden;
-    }
+    
+    } */
     
 
     .latestupdate{
@@ -676,7 +671,10 @@ footer .bottom .right{
     .Commite{
         flex-wrap: wrap;
         justify-content: center;
+        align-items: center;
     }
+
+   
 
     .Commite .left h1{
         font-size: 45px;
@@ -833,6 +831,15 @@ footer .bottom .right{
         flex-basis: 250px;
         flex-grow: 1;
     }
+
+    .Commite .left{
+        justify-content: center;
+    }
+
+    .Commite .right{
+        justify-content: center;
+    }
+
 }
 
 
@@ -860,8 +867,7 @@ footer .bottom .right{
     }
 
     aside ul{
-        list-style: square;
-        list-style-position: inside;
+        list-style: none;
     }
 
 
@@ -869,13 +875,21 @@ footer .bottom .right{
         font-size: 60px;
     }
 
+    .e-Filling{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+
     .e-Filling .one p{
         font-size: 40px;
     }
 
     .e-Filling .one button{
         font-size: 32px;
-        width: 400px;
+        width: 300px;
+        height:100px;
+        justify-content: center;
     }
 
     .latestupdate input{
@@ -992,7 +1006,8 @@ footer .bottom .right{
 
     menu ul li{
         border: 1px solid black;
-        padding: 1%;
+        padding: 2%;
+        margin: 2%;
     }
 
 
@@ -1004,25 +1019,52 @@ footer .bottom .right{
         flex-basis: 400px;
         flex-grow: 1;
     }
-    
-    .container .latestupdate{
-        margin-right: 8%
-       
-    }
 
-    .container .thingstoknow{
-        margin-right: 5%
-       
-    }
-
-   .container .Commite{
-        margin-right: 8%;
-   }
 
     aside{
-        margin-right: 5%;
+        padding: 2%;
     }
 
+
+    .latestupdate button{
+        margin-top: 2%;
+    }
+
+    .container ul{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .container ul li{
+        margin-top: 2%;
+    }
+
+    .container h1{
+        text-align: center;
+    }
+
+    .e-Filling .one p {
+        text-align: center;
+    }
+
+    .e-Filling .one button{
+        width: 500px;
+        height: 70px;
+        margin-left: 10%;
+    }
+
+    .e-Filling .two img{
+        height: 300px;
+        width: 400px;
+    }
+
+
+    .Commite .right img{
+        height: 480px;
+    }
+
+    
    
 }
 
